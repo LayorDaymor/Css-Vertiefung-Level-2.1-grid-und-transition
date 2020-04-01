@@ -43,7 +43,7 @@ section{
 
 .overlay{   
     position: absolute;
-    top: 100%;
+    top: 5%;
     height: 100%;
     width: 100%;
     background-color:rgba(0,0,0,0.4);
