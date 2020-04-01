@@ -9,6 +9,7 @@ body, html{
 }
 
 section{
+    height: 100vh;
     position: relative;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -22,7 +23,7 @@ section{
 .box {
     margin: 0;
     padding: 0;
-    display: inline-block;
+    display: inline-flexbox;
     position: relative;
     color: red;
     font-family:var(--project-font) ;
@@ -40,8 +41,7 @@ section{
 
 }
 
-.overlay, .overlay2{   
-    display: ;
+.overlay{   
     position: absolute;
     top: 100%;
     height: 100%;
@@ -51,7 +51,7 @@ section{
     overflow: hidden;
     opacity: 0;
 }
-section:hover .overlay, .overlay2{
+.box:hover .overlay{
     top: 0;
     opacity: 1;
 } 
